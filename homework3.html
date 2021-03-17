@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 50%;
+            padding: 10px;
+            height: 300px; /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <h2>Stanford researchers find a quicker,<br>
+            cheaper way to sort isotopes</h2>
+            <p>BY EMMANUEL ROMERO L.A.Cicero Richard Zare<br>
+            Professor Richard Zare in his lab...</p>
+        </div>
+        <div class="column">
+            <h2>Chance to dance: Enthusiasts fly to<br>
+            Stanford for dance weekend</h2>
+            <p>By CYNTHIA HAVEN L.A.Cicero Lindy Hop instruction<br>
+            Stanford is an epicenter for...</p>
+        </div>
+    </div>
+
+</body>
+</html>
